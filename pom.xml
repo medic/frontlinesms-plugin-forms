@@ -35,6 +35,7 @@
 		<dependency>
 			<groupId>net.frontlinesms.core</groupId>
 			<artifactId>frontlinesms</artifactId>
+			<version>1.7.00-beta-6-wbethiopia</version>
 		</dependency>
 	</dependencies>
 </project>

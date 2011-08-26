@@ -23,6 +23,8 @@ import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 
 import javax.swing.JFormattedTextField;
 import javax.swing.JLabel;
@@ -61,8 +63,8 @@ public class DateField extends FComponent {
 		pn.add(desc);
 		int width = desc.getFontMetrics(desc.getFont()).stringWidth(desc.getText());
 		width = renderWidth - width;
-		DateFormatter df = new DateFormatter(InternationalisationUtils.getDateFormat());
-		JFormattedTextField tf = new JFormattedTextField(df);
+		DateFormat dformat = new SimpleDateFormat(InternationalisationUtils.getI18nString(FrontlineSMSConstants.DATEFORMAT_YMD));
+		JFormattedTextField tf = new JFormattedTextField(dformat);
 		tf.setPreferredSize(new Dimension(width, 20));
 		tf.setEditable(false);
 		pn.add(tf);
