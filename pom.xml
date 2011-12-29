@@ -3,7 +3,7 @@
 	<groupId>net.frontlinesms.plugins</groupId>
 	<artifactId>frontlinesms-plugin-forms</artifactId>
 	<name>FrontlineSMS Forms plugin</name>
-	<version>0.02.33-wbethiopia</version>
+	<version>0.02.33-hope</version>
 	<description>FrontlineForms plugin for FrontlineSMS</description>
 	<parent>
 		<groupId>net.frontlinesms.core</groupId>
@@ -36,7 +36,7 @@
 		<dependency>
 			<groupId>net.frontlinesms.core</groupId>
 			<artifactId>frontlinesms</artifactId>
-			<version>1.7.00-beta-6-wbethiopia</version>
+			<version>1.7.00-beta-6-hope</version>
 		</dependency>
 				<dependency>
 			<groupId>net.frontlinesms.core</groupId>
